@@ -11,4 +11,7 @@ import javax.persistence.Id;
 public class MixingMethod {
     @Getter @Setter @Id
     private long id;
+
+    @Getter @Setter
+    private String method;
 }
