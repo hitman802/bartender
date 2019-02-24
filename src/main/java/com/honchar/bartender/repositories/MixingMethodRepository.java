@@ -1,7 +1,7 @@
 package com.honchar.bartender.repositories;
 
 import com.honchar.bartender.entities.MixingMethod;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface MixingMethodRepository extends CrudRepository<MixingMethod, Long> {
+public interface MixingMethodRepository extends JpaRepository<MixingMethod, Long> {
 }

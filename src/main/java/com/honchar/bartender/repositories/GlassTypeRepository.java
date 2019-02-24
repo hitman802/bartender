@@ -1,7 +1,7 @@
 package com.honchar.bartender.repositories;
 
 import com.honchar.bartender.entities.GlassType;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface GlassTypeRepository extends CrudRepository<GlassType, Long> {
+public interface GlassTypeRepository extends JpaRepository<GlassType, Long> {
 }
