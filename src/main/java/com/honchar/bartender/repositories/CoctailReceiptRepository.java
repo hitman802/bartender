@@ -1,10 +1,9 @@
 package com.honchar.bartender.repositories;
 
-import com.honchar.bartender.entities.CoctailReceipt;
+import com.honchar.bartender.entities.CocktailReceipt;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CoctailReceiptRepository extends JpaRepository<CoctailReceipt, Long> {
+public interface CoctailReceiptRepository extends JpaRepository<CocktailReceipt, Long> {
 }

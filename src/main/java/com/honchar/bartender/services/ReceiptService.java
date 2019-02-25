@@ -1,6 +1,6 @@
 package com.honchar.bartender.services;
 
-import com.honchar.bartender.entities.CoctailReceipt;
+import com.honchar.bartender.entities.CocktailReceipt;
 import com.honchar.bartender.repositories.CoctailReceiptRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ public class ReceiptService {
     @Autowired
     private CoctailReceiptRepository coctailReceiptRepository;
 
-    public List<CoctailReceipt> getAll() {
+    public List<CocktailReceipt> getAll() {
         return coctailReceiptRepository.findAll();
     }
 }

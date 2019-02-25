@@ -1,6 +1,6 @@
 package com.honchar.bartender.controllers;
 
-import com.honchar.bartender.entities.CoctailReceipt;
+import com.honchar.bartender.entities.CocktailReceipt;
 import com.honchar.bartender.services.ReceiptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,7 @@ public class ReceiptController {
     private ReceiptService receiptService;
 
     @GetMapping("/all")
-    public List<CoctailReceipt> getAllReceipts() {
+    public List<CocktailReceipt> getAllReceipts() {
         return receiptService.getAll();
     }
 
